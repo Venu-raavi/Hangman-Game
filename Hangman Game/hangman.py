@@ -25,7 +25,7 @@ def hangman():
     category = choose_random_category()
     word_to_guess = choose_word(category)
     guessed_letters = set()
-    attempts_left = 6
+    attempts_left = 8
 
     print(f"\nThe category is: {category.replace('_', ' ').capitalize()}")
     print(f"The word has {len(word_to_guess.replace(' ', ''))} letters (excluding spaces).")
